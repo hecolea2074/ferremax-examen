@@ -1,0 +1,48 @@
+/* pagina.css */
+body {
+    padding-top: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos adicionales para espaciar y decorar */
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #0056b3; /* Color temático, ajustable a tus preferencias */
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+/* Define un estilo para el contenedor del producto */
+.contenedor-producto {
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Bordes grises transparentes */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: rgba(240, 240, 240, 0.9); /* Fondo gris claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+/* Redondear la imagen del producto */
+.contenedor-producto img {
+    border-radius: 10px;
+}
+
+/* Ajustar el estilo del selector de moneda */
+#currency-selector {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo del botón de conversión */
+.btn-info {
+    margin-top: 10px;
+}
